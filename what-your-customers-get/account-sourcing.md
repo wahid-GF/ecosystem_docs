@@ -2,34 +2,34 @@
 
 ## What is it?
 
-Account Sourcing allows your customers to build their TAM directly from your dataset. They define their market using the filters you have made available, preview qualifying companies, and receive a continuously refreshed set of accounts.
+Account Sourcing lets your customers build their TAM directly from your dataset. They define their market using filters you've configured, preview qualifying companies, and get a continuously refreshed set of accounts.
 
-Your customers never need to bring their own data, scrape LinkedIn, or burn credits on a third-party provider. The accounts come from your platform, powered by the dataset you built with GoodFit.
+No scraping LinkedIn. No third-party credits. The accounts come from your platform, powered by the dataset you built with GoodFit.
 
 ## Why is it useful?
 
-Today, most platforms offer their users one of three ways to source accounts: LinkedIn scraping, an expensive third-party query, or uploading a CSV. Each of these puts the burden on the customer and means the platform feels empty on day one.
+Most platforms today give users three ways to source accounts: LinkedIn scraping, an expensive third-party query, or uploading a CSV. All three put the burden on the customer, and the platform feels empty on day one.
 
-Account Sourcing turns your platform into the source of truth. Your customer describes who they sell to, and your platform delivers the accounts immediately.
+Account Sourcing turns your platform into the source of truth. A customer describes who they sell to, and your platform delivers the accounts immediately.
 
 With Account Sourcing, you can:
 
-* Provide a day-one populated experience for new customers
+* Give new customers a populated experience from day one
 * Replace fragile LinkedIn scraping with structured, refreshed data
-* Offer dynamic filters that no other provider supports such as "companies hiring data engineers in DACH"
-* Keep the dataset alive, with new companies arriving and non-qualifying companies dropping out automatically
+* Offer dynamic filters no other provider supports, like "companies hiring data engineers in DACH"
+* Keep the dataset alive as new companies arrive and non-qualifying ones drop out
 
 ## How it works
 
-You can think of it in four steps.
+Four steps.
 
-**1. You build the dataset.** Working with GoodFit, you define which companies are in your dataset, which attributes are included, and how Dynamic blocks are configured. This happens once, with ongoing refinement. Your customers never see this layer.
+**1. You build the dataset.** With GoodFit, you define which companies are included, which attributes matter, and how Dynamic blocks are configured. This happens once, with ongoing refinement. Customers never see this layer.
 
-**2. Your customer defines their market.** Inside your platform, your customer specifies their ICP using the filters you have exposed — company size, geography, industry, tech stack, team composition. These map to GoodFit data block attributes behind the scenes.
+**2. Customers define their market.** Inside your platform, they specify their ICP using the filters you've exposed: company size, geography, industry, tech stack, team composition. These map to GoodFit data block attributes behind the scenes.
 
 **3. They preview before committing.** Before anything enters their workspace, they see total market size, a sample of qualifying companies, and validation that their criteria make sense.
 
-**4. Accounts flow continuously.** Once published, the market is alive. New qualifying companies arrive as they enter the market. Companies that no longer qualify drop out. Your customer works a living dataset, not a static export.
+**4. Accounts flow continuously.** Once published, the market is alive. New qualifying companies arrive. Companies that no longer qualify drop out. Customers work a living dataset, not a static export.
 
 ## Available filters
 
@@ -51,7 +51,7 @@ Every data block can be used as a sourcing filter. Here are the most common:
 | Classification Model  | `classification_model`         | `{ "primary_label": "Vertical SaaS" }`              |
 
 {% hint style="success" %}
-Dynamic blocks as filters are the differentiator. These are not static fields — they are queries you defined when building your dataset, and they produce signals that no other data provider can offer as sourcing criteria.
+Dynamic blocks as filters are the differentiator. These aren't static fields. They're queries you defined when building your dataset, producing signals no other provider can offer as sourcing criteria.
 {% endhint %}
 
 {% content-ref url="enrichment.md" %}

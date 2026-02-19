@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Delivery options define how GoodFit data gets into your product. The right method depends on your architecture, your team's capacity, and what you are building. We support multiple approaches and are flexible on shaping new ones.
+Delivery options define how GoodFit data gets into your product. The right method depends on your architecture, your team's capacity, and what you're building. We support multiple approaches and can shape new ones.
 
 ## Option 1: Flat file delivery (S3)
 
@@ -20,13 +20,13 @@ s3://{bucket}/{partner_prefix}/
     └── sourced_2026-02-15_manifest.json
 ```
 
-Supported formats include CSV (UTF-8), Parquet, and JSON Lines.
+Supported formats: CSV (UTF-8), Parquet, and JSON Lines.
 
 {% hint style="info" %}
 Every delivery includes a `manifest.json` with record count, field list, checksum, and schema version. Use it for automated quality checks.
 {% endhint %}
 
-This is how most partners start. It is the lowest-lift integration — no API dependencies, no rate limits. Your existing data infrastructure handles ingestion.
+This is how most partners start. Lowest-lift integration, no API dependencies, no rate limits. Your existing data infrastructure handles ingestion.
 
 ## Option 2: Database access
 
@@ -34,9 +34,9 @@ Best for partners who want query flexibility, real-time filtering, or to build t
 
 GoodFit provides access to a configured dataset in a queryable format. You run the queries. We maintain the data.
 
-This option provides more flexibility than flat files. You can build dynamic filtering, faceted search, and real-time lookups without waiting for a file delivery.
+More flexibility than flat files. You can build dynamic filtering, faceted search, and real-time lookups without waiting for a file delivery.
 
-Database access is available for build partners. The specifics — hosted database, replicated dataset, query API — are shaped by partner requirements.
+Database access is available for build partners. The specifics (hosted database, replicated dataset, query API) are shaped by partner requirements.
 
 ## Option 3: API endpoints
 
@@ -44,30 +44,31 @@ Best for real-time enrichment, on-demand sourcing, and event-driven architecture
 
 Structured API endpoints for sourcing (`POST /v1/markets`) and enrichment (`POST /v1/enrich`). Your platform calls GoodFit in real-time. Results come back structured and typed.
 
-See [Account Sourcing](../what-your-customers-get/account-sourcing.md) and [Enrichment](../what-your-customers-get/enrichment.md) for API reference and example payloads.
+See [Account Sourcing](../what-your-customers-get/account-sourcing.md) and [Enrichment](../what-your-customers-get/enrichment.md) for more detail.
 
 ## Choosing the right option
 
 | Question                       | Flat file                | Database               | API                  |
 | ------------------------------ | ------------------------ | ---------------------- | -------------------- |
 | How quickly do you need data?  | Batch (daily/weekly)     | Near real-time         | Real-time            |
-| Do you have a data warehouse?  | Yes — pipe it in         | Maybe — we can host    | Not needed           |
+| Do you have a data warehouse?  | Yes, pipe it in          | Maybe, we can host     | Not needed           |
 | How much query flexibility?    | You query your warehouse | Full SQL-style queries | Structured endpoints |
 | Engineering lift to integrate? | Low                      | Medium                 | Medium               |
 | Best for MVP?                  | Yes                      | Depends                | If API-first         |
 
 {% hint style="info" %}
-You are not locked in. Start with flat files. Move to API when you are ready. Run both in parallel during migration. The underlying dataset is the same regardless of delivery method.
+You're not locked in. Start with flat files. Move to API when you're ready. Run both in parallel during migration. The underlying dataset is the same regardless of delivery method.
 {% endhint %}
 
 ## Schema mapping
 
-GoodFit field names follow the data block structure documented in this portal — for example, `firmographics.employee_count` or `hiring.open_jobs`. Your internal schema will use different names.
+GoodFit field names follow the data block structure documented in this portal, for example `firmographics.employee_count` or `hiring.open_jobs`. Your internal schema will use different names.
 
 We work with your engineering team to define a mapping. Common patterns:
 
 {% tabs %}
 {% tab title="Direct mapping" %}
+
 ```json
 {
   "firmographics.company_name": "account_name",
@@ -76,9 +77,11 @@ We work with your engineering team to define a mapping. Common patterns:
   "hiring.open_jobs": "active_job_postings"
 }
 ```
+
 {% endtab %}
 
 {% tab title="Transform mapping" %}
+
 ```json
 {
   "firmographics.revenue_range": {
@@ -93,6 +96,7 @@ We work with your engineering team to define a mapping. Common patterns:
   }
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
