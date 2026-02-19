@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Data Freshness & SLAs
 
 ## What is it?
@@ -10,16 +14,16 @@ No data point older than 30 days. In practice, high-traffic entities refresh con
 
 ## Refresh cadences by source
 
-| Source                                 | Refresh cadence               | Notes                                                                                               |
-| -------------------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------- |
+| Source                                 | Refresh cadence               | Notes                                                                                                |
+| -------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------- |
 | LinkedIn profiles                      | Continuous for active queries | Large companies queried frequently refresh constantly. Smaller companies refresh at minimum monthly. |
-| LinkedIn Jobs / Indeed                 | Daily                         | Job data is the most time-sensitive signal we track.                                                |
-| Semrush traffic                        | Monthly                       | Traffic estimates are inherently monthly aggregations.                                              |
-| Crunchbase / Dealroom                  | Weekly                        | Funding events, M&A, and company updates.                                                          |
-| BuiltWith / SimilarTech                | Weekly                        | Technology stack detection and changes.                                                             |
-| G2 / Capterra / Trustpilot / Glassdoor | Weekly                        | Reviews, ratings, and software profiles.                                                            |
-| Lighthouse                             | Monthly                       | Website performance metrics.                                                                        |
-| GoodFit NLP                            | On crawl (continuous)         | Website classification, B2B/SaaS detection, GTM model.                                              |
+| LinkedIn Jobs / Indeed                 | Daily                         | Job data is the most time-sensitive signal we track.                                                 |
+| Semrush traffic                        | Monthly                       | Traffic estimates are inherently monthly aggregations.                                               |
+| Crunchbase / Dealroom                  | Weekly                        | Funding events, M\&A, and company updates.                                                           |
+| BuiltWith / SimilarTech                | Weekly                        | Technology stack detection and changes.                                                              |
+| G2 / Capterra / Trustpilot / Glassdoor | Weekly                        | Reviews, ratings, and software profiles.                                                             |
+| Lighthouse                             | Monthly                       | Website performance metrics.                                                                         |
+| GoodFit NLP                            | On crawl (continuous)         | Website classification, B2B/SaaS detection, GTM model.                                               |
 
 For frequently queried companies, data refreshes on every crawl cycle. For less-queried companies, the refresh happens at the minimum cadence for each source, but never older than 30 days.
 

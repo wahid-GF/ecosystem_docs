@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Delivery Options
 
 ## What is it?
@@ -68,7 +72,6 @@ We work with your engineering team to define a mapping. Common patterns:
 
 {% tabs %}
 {% tab title="Direct mapping" %}
-
 ```json
 {
   "firmographics.company_name": "account_name",
@@ -77,11 +80,9 @@ We work with your engineering team to define a mapping. Common patterns:
   "hiring.open_jobs": "active_job_postings"
 }
 ```
-
 {% endtab %}
 
 {% tab title="Transform mapping" %}
-
 ```json
 {
   "firmographics.revenue_range": {
@@ -96,7 +97,6 @@ We work with your engineering team to define a mapping. Common patterns:
   }
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
