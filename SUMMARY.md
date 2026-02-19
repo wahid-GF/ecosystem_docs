@@ -32,6 +32,4 @@
 
 ***
 
-* [The Art of the Possible](the-art-of-the-possible.md)
-* [Why White Label](why-white-label.md)
 * [Request a Data Point](request-a-data-point.md)

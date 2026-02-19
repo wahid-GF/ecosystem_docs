@@ -14,16 +14,12 @@ The dataset is not fixed. GoodFit adds new blocks, fields, sources, and custom c
 
 **New source integrations.** If you have a specific data source in mind that would improve coverage for your use case, we will evaluate adding it to the pipeline.
 
-## How to request
-
-Reach out to your GoodFit partnership lead with:
-
-* What you need — the data point, signal, or classification you are looking for
-* Why it matters — the use case it enables for your customers
-* How you would use it — sourcing filter, enrichment field, or both
-
-We will evaluate feasibility, estimate delivery timeline, and work it into the dataset configuration.
+## Submit a request
 
 {% hint style="info" %}
 Build partners directly influence what gets built. If your request makes the dataset better for everyone, it ships faster.
 {% endhint %}
+
+{% embed url="https://FORM_URL_HERE" %}
+Submit your data point request
+{% endembed %}
