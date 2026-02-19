@@ -8,6 +8,37 @@ hidden: true
 
 Delivery options define how GoodFit data gets into your product. The right method depends on your architecture, your team's capacity, and what you're building. We support multiple approaches and can shape new ones.
 
+### Why does this matter?
+
+The wrong delivery method creates engineering drag. The right one disappears into your existing stack. Pick based on your architecture, not on what sounds newest.
+
+## Choosing the right option
+
+<table data-view="cards">
+<thead><tr>
+  <th></th>
+  <th></th>
+</tr></thead>
+<tbody>
+<tr>
+  <td><strong>Flat File (S3)</strong></td>
+  <td>Batch delivery, daily or weekly. Best for data warehouse architectures and MVPs. Lowest engineering lift.</td>
+</tr>
+<tr>
+  <td><strong>Database Access</strong></td>
+  <td>Near real-time, full SQL-style queries. Best for partners who want query flexibility or real-time filtering.</td>
+</tr>
+<tr>
+  <td><strong>API Endpoints</strong></td>
+  <td>Real-time enrichment and sourcing. Structured endpoints, event-driven. Best for API-first architectures.</td>
+</tr>
+</tbody>
+</table>
+
+{% hint style="info" %}
+You're not locked in. Start with flat files. Move to API when you're ready. Run both in parallel during migration. The underlying dataset is the same regardless of delivery method.
+{% endhint %}
+
 ## Option 1: Flat file delivery (S3)
 
 Best for MVP integrations, data warehouse architectures, and teams that want full control over ingestion.
@@ -36,11 +67,11 @@ This is how most partners start. Lowest-lift integration, no API dependencies, n
 
 Best for partners who want query flexibility, real-time filtering, or to build their own query layer on top of the dataset.
 
-GoodFit provides access to a configured dataset in a queryable format. You run the queries. We maintain the data.
+GoodFit gives you access to a configured dataset in a queryable format. You run the queries. We maintain the data.
 
 More flexibility than flat files. You can build dynamic filtering, faceted search, and real-time lookups without waiting for a file delivery.
 
-Database access is available for build partners. The specifics (hosted database, replicated dataset, query API) are shaped by partner requirements.
+Database access is available for build partners. We'll shape the details around what you need: hosted database, replicated dataset, or query API.
 
 ## Option 3: API endpoints
 
@@ -50,25 +81,11 @@ Structured API endpoints for sourcing (`POST /v1/markets`) and enrichment (`POST
 
 See [Account Sourcing](../what-your-customers-get/account-sourcing.md) and [Enrichment](../what-your-customers-get/enrichment.md) for more detail.
 
-## Choosing the right option
-
-| Question                       | Flat file                | Database               | API                  |
-| ------------------------------ | ------------------------ | ---------------------- | -------------------- |
-| How quickly do you need data?  | Batch (daily/weekly)     | Near real-time         | Real-time            |
-| Do you have a data warehouse?  | Yes, pipe it in          | Maybe, we can host     | Not needed           |
-| How much query flexibility?    | You query your warehouse | Full SQL-style queries | Structured endpoints |
-| Engineering lift to integrate? | Low                      | Medium                 | Medium               |
-| Best for MVP?                  | Yes                      | Depends                | If API-first         |
-
-{% hint style="info" %}
-You're not locked in. Start with flat files. Move to API when you're ready. Run both in parallel during migration. The underlying dataset is the same regardless of delivery method.
-{% endhint %}
-
 ## Schema mapping
 
 GoodFit field names follow the data block structure documented in this portal, for example `firmographics.employee_count` or `hiring.open_jobs`. Your internal schema will use different names.
 
-We work with your engineering team to define a mapping. Common patterns:
+We'll work with your engineering team to define a mapping. Common patterns:
 
 {% tabs %}
 {% tab title="Direct mapping" %}

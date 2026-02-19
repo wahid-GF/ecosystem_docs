@@ -12,11 +12,15 @@ How data freshness works across different sources, and what we commit to contrac
 No data point older than 30 days. In practice, high-traffic entities refresh continuously. Different attributes update at different cadences depending on source availability and query frequency.
 {% endhint %}
 
+### Why does this matter?
+
+Stale data erodes trust. If your customers see a company listed as "50 employees" when it's actually 500, they stop trusting your platform. Freshness isn't a nice-to-have; it's what separates a live dataset from a static dump.
+
 ## Refresh cadences by source
 
 | Source                                 | Refresh cadence               | Notes                                                                                                |
 | -------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------- |
-| LinkedIn profiles                      | Continuous for active queries | Large companies queried frequently refresh constantly. Smaller companies refresh at minimum monthly. |
+| LinkedIn profiles                      | Continuous for active queries | Large companies queried frequently refresh constantly. Smaller ones refresh at minimum monthly.       |
 | LinkedIn Jobs / Indeed                 | Daily                         | Job data is the most time-sensitive signal we track.                                                 |
 | Semrush traffic                        | Monthly                       | Traffic estimates are inherently monthly aggregations.                                               |
 | Crunchbase / Dealroom                  | Weekly                        | Funding events, M\&A, and company updates.                                                           |
@@ -25,7 +29,7 @@ No data point older than 30 days. In practice, high-traffic entities refresh con
 | Lighthouse                             | Monthly                       | Website performance metrics.                                                                         |
 | GoodFit NLP                            | On crawl (continuous)         | Website classification, B2B/SaaS detection, GTM model.                                               |
 
-For frequently queried companies, data refreshes on every crawl cycle. For less-queried companies, the refresh happens at the minimum cadence for each source, but never older than 30 days.
+For companies that get queried a lot, data refreshes on every crawl cycle. For less-queried companies, it refreshes at the minimum cadence for each source, but never older than 30 days.
 
 ## Delivery SLAs
 
@@ -38,18 +42,18 @@ For frequently queried companies, data refreshes on every crawl cycle. For less-
 
 ## Incident handling
 
-If a delivery is delayed or contains quality issues:
+If a delivery is delayed or has quality issues:
 
-* **Detection**: GoodFit monitors every delivery pipeline automatically.
-* **Notification**: Your partnership lead is notified within one hour. Critical issues trigger email alerts.
-* **Resolution**: Target resolution within four hours for delivery failures, 24 hours for data quality issues.
+* **Detection**: We monitor every delivery pipeline automatically.
+* **Notification**: Your partnership lead gets notified within one hour. Critical issues trigger email alerts.
+* **Resolution**: We target four hours for delivery failures, 24 hours for data quality issues.
 * **Post-incident**: Written summary with root cause, impact, and preventive measures for any SLA breach.
 
 ## Monitoring recommendations
 
-We recommend setting up these checks on your side:
+We'd recommend setting up these checks on your side:
 
-* **Delivery arrival**: alert if the expected file isn't in S3 within two hours of the scheduled window
-* **Record count**: alert if the manifest record count deviates more than 10% from the trailing average
-* **Checksum**: verify `checksum_sha256` before processing and reject files that fail integrity checks
-* **Schema version**: alert if `schema_version` changes, and review new fields before ingesting
+* **Delivery arrival**: Alert if the expected file isn't in S3 within two hours of the scheduled window.
+* **Record count**: Alert if the manifest record count deviates more than 10% from the trailing average.
+* **Checksum**: Verify `checksum_sha256` before processing and reject files that fail integrity checks.
+* **Schema version**: Alert if `schema_version` changes, and review new fields before ingesting.

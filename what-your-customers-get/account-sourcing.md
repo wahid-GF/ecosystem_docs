@@ -2,36 +2,48 @@
 
 ## What is it?
 
-Account Sourcing lets your customers build their TAM directly from your dataset. They define their market using filters you've configured, preview qualifying companies, and get a continuously refreshed set of accounts.
+Account Sourcing lets your customers build their TAM straight from your dataset. They define their market using filters you've set up, preview the companies that qualify, and get a set of accounts that refreshes on its own.
 
 No scraping LinkedIn. No third-party credits. The accounts come from your platform, powered by the dataset you built with GoodFit.
 
 ## Why is it useful?
 
-Most platforms today give users three ways to source accounts: LinkedIn scraping, an expensive third-party query, or uploading a CSV. All three put the burden on the customer, and the platform feels empty on day one.
+Long gone are the days where your users had to scrape LinkedIn, pay for expensive third-party queries, or upload stale CSVs. All three put the burden on the customer, and the platform feels empty on day one.
 
-Account Sourcing turns your platform into the source of truth. A customer describes who they sell to, and your platform delivers the accounts immediately.
+Account Sourcing turns your platform into the source of truth. A customer describes who they sell to, and your platform delivers the accounts right away.
 
-With Account Sourcing, you can:
+Here's what that unlocks:
 
-* Give new customers a populated experience from day one
-* Replace fragile LinkedIn scraping with structured, refreshed data
-* Offer dynamic filters no other provider supports, like "companies hiring data engineers in DACH"
-* Keep the dataset alive as new companies arrive and non-qualifying ones drop out
+* New customers get a populated experience from day one
+* Structured, refreshed data replaces fragile LinkedIn scraping
+* You can offer filters no other provider supports, like "companies hiring data engineers in DACH"
+* The dataset stays alive as new companies arrive and non-qualifying ones drop out
 
 ## How it works
 
-Four steps.
-
-**1. You build the dataset.** With GoodFit, you define which companies are included, which attributes matter, and how Dynamic blocks are configured. This happens once, with ongoing refinement. Customers never see this layer.
-
-**2. Customers define their market.** Inside your platform, they specify their ICP using the filters you've exposed: company size, geography, industry, tech stack, team composition. These map to GoodFit data block attributes behind the scenes.
-
-**3. They preview before committing.** Before anything enters their workspace, they see total market size, a sample of qualifying companies, and validation that their criteria make sense.
-
-**4. Accounts flow continuously.** Once published, the market is alive. New qualifying companies arrive. Companies that no longer qualify drop out. Customers work a living dataset, not a static export.
+{% stepper %}
+{% step %}
+### Build the dataset
+You work with GoodFit to define which companies are included, which attributes matter, and how Dynamic blocks are configured. You do this once, then refine over time. Your customers never see this layer.
+{% endstep %}
+{% step %}
+### Customers define their market
+Inside your platform, they set their ICP using the filters you've exposed: company size, geography, industry, tech stack, team composition. Behind the scenes, these map to GoodFit data block attributes.
+{% endstep %}
+{% step %}
+### They preview before committing
+Before anything hits their workspace, they see total market size, a sample of qualifying companies, and validation that their criteria make sense.
+{% endstep %}
+{% step %}
+### Accounts flow continuously
+Once published, the market is alive. New qualifying companies show up. Companies that no longer qualify drop out. Your customers work a living dataset, not a static export.
+{% endstep %}
+{% endstepper %}
 
 ## Available filters
+
+<details>
+<summary>View all available filters</summary>
 
 Every data block can be used as a sourcing filter. Here are the most common:
 
@@ -49,6 +61,8 @@ Every data block can be used as a sourcing filter. Here are the most common:
 | Job keywords          | `jobs`                         | `{ "titleKeywords": ["data engineer"] }`            |
 | Traffic volume        | `traffic.all_domains_visits`   | `{ "min": 50000 }`                                  |
 | Classification Model  | `classification_model`         | `{ "primary_label": "Vertical SaaS" }`              |
+
+</details>
 
 {% hint style="success" %}
 Dynamic blocks as filters are the differentiator. These aren't static fields. They're queries you defined when building your dataset, producing signals no other provider can offer as sourcing criteria.

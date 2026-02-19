@@ -10,14 +10,14 @@ GoodFit powers your dataset with hundreds of attributes across 25 data blocks fr
 
 | Capability | What it does |
 | --- | --- |
-| [**Account Sourcing**](what-your-customers-get/account-sourcing.md) | Customers build their TAM from your dataset. They define their market, preview qualifying companies, and get continuously refreshed accounts. |
-| [**Enrichment**](what-your-customers-get/enrichment.md) | Customers pass a company and get back up to 296 attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider. |
+| [**Account Sourcing**](what-your-customers-get/account-sourcing.md) | Your customers build their TAM from your dataset. They define their market, preview qualifying companies, and get continuously refreshed accounts. |
+| [**Enrichment**](what-your-customers-get/enrichment.md) | Your customers pass a company and get back up to 296 attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider. |
 
-Both capabilities draw from the same data blocks listed below. You configure the blocks once. Customers use them as sourcing filters or enrichment fields.
+Both capabilities draw from the same data blocks listed below. You configure the blocks once. Your customers use them as sourcing filters or enrichment fields.
 
 ## What you configure
 
-These blocks form your dataset. You define the parameters. Customers query the result.
+These blocks form your dataset. You define the parameters. Your customers query the result.
 
 <table><thead><tr><th width="296.1171875">Block</th><th align="right">Fields</th><th>Type</th></tr></thead><tbody><tr><td><a href="what-you-configure/firmographics.md">Firmographics</a></td><td align="right">48</td><td>Core</td></tr><tr><td><a href="what-you-configure/hiring-intelligence.md">Hiring</a></td><td align="right">52</td><td>Dynamic</td></tr><tr><td><a href="what-you-configure/team-composition.md">Team</a></td><td align="right">37</td><td>Dynamic</td></tr><tr><td><a href="what-you-configure/website-performance.md">Site Performance</a></td><td align="right">14</td><td>Core</td></tr><tr><td><a href="what-you-configure/glassdoor.md">Employee Sentiment</a></td><td align="right">10</td><td>Core</td></tr><tr><td><a href="what-you-configure/software-profile.md">Software</a></td><td align="right">9</td><td>Core</td></tr><tr><td><a href="what-you-configure/technologies.md">Technographics</a></td><td align="right">7</td><td>Dynamic</td></tr><tr><td><a href="what-you-configure/classification-model.md">Classification Models</a></td><td align="right">3</td><td>Dynamic</td></tr><tr><td><a href="what-you-configure/company-reviews.md">Reviews</a></td><td align="right">7</td><td>Dynamic</td></tr></tbody></table>
 
@@ -27,11 +27,11 @@ These blocks form your dataset. You define the parameters. Customers query the r
 
 ## Partner programme
 
-We want to understand how data needs to live in your product and we'll shape delivery around that. See [Common Use Cases](overview/common-use-cases.md) for how early integrations are taking shape, or [Getting Started](technical-integration/getting-started.md) for the technical onboarding path.
+We want to understand how data needs to live in your product and we'll shape delivery around that. Check out [Common Use Cases](overview/common-use-cases.md) for how early integrations are taking shape, or [Getting Started](technical-integration/getting-started.md) for the technical onboarding path.
 
 ## Don't see what you need?
 
-The dataset isn't fixed. We add new blocks, fields, sources, and custom classifiers based on partner requirements.
+The dataset isn't fixed. We add new blocks, fields, sources, and custom classifiers based on what partners need.
 
 {% content-ref url="request-a-data-point.md" %}
 [request-a-data-point.md](request-a-data-point.md)
