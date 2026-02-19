@@ -38,20 +38,3 @@ You can think of onboarding in five steps.
 
 <br>
 
-#### Timeline
-
-
-
-Most integrations go live within two to four weeks. The variable is usually on the partner side — how quickly requirements are defined and the ingestion pipeline is built. The GoodFit side, including dataset configuration and delivery setup, typically takes days rather than weeks.
-
-<br>
-
-#### Who is involved
-
-| Role             | GoodFit side                                     | Your side                              |
-| ---------------- | ------------------------------------------------ | -------------------------------------- |
-| Partnership lead | Owns the relationship, coordinates configuration | Your main point of contact             |
-| Data engineering | Configures dataset, sets up delivery             | Builds ingestion pipeline, maps schema |
-| Product          | Available for deep-dive sessions on data blocks  | Defines how data surfaces in your UI   |
-
-We swap in the right people at the right stage. Discovery calls are typically founder-to-founder or with your partnership lead. Technical deep-dives bring in our product team. Context carries through so you do not need to brief us separately.
