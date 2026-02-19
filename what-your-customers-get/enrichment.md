@@ -4,7 +4,7 @@
 
 #### What is it?
 
-Enrichment fills in everything that is missing about the companies your customers already have. Your customers pass a company — a domain, a name, a CRM ID — and get back up to 296 structured attributes from your dataset.
+Enrichment fills in everything that is missing about the companies your customers already have. Your customers pass a company — a domain, a name, a CRM ID — and get back 100's of structured attributes from your dataset.
 
 Firmographics, hiring signals, team composition, traffic, tech stack, funding, reviews, and proprietary NLP classifications. One call. Structured, typed, sourced data back.
 
@@ -37,80 +37,6 @@ With Enrichment, you can:
 **3. Structured data comes back.** Every field is typed, sourced, and fresh. Your customer sees the data inside your platform — it is your data, your UI, your experience. GoodFit is invisible.
 
 **4. Data stays current.** Batch enrich on a schedule, or receive webhook updates when something changes. No data point older than 30 days. High-traffic companies refresh continuously.
-
-<br>
-
-#### API reference
-
-`POST /v1/enrich`
-
-{% tabs %}
-{% tab title="Request" %}
-```json
-{
-  "domain": "acmecorp.io",
-  "dataset": "your_production",
-  "blocks": [
-    "firmographics",
-    "hiring",
-    "team",
-    "traffic",
-    "technologies",
-    "funding"
-  ]
-}
-```
-{% endtab %}
-
-{% tab title="Response" %}
-```json
-{
-  "company_id": "gf_8a2f4e",
-  "domain": "acmecorp.io",
-  "dataset": "your_production",
-  "enriched_at": "2026-02-18T09:14:22Z",
-  "firmographics": {
-    "company_name": "Acme Corp",
-    "country": "United States",
-    "employee_count": 342,
-    "revenue_range": "$10M-$50M",
-    "is_saas": true,
-    "is_b2b": true,
-    "b2b_probability": 0.94,
-    "gtm_model": ["Product Led", "Sales Assisted"]
-  },
-  "hiring": {
-    "open_jobs": 47,
-    "sales_cnt": 12,
-    "remote_perc": 0.34,
-    "jobs_outside_hq_percentage": 0.404
-  },
-  "team": {
-    "sales_cnt": 42,
-    "developers_cnt": 89,
-    "people_outside_hq_percentage": 0.38,
-    "na_count": 201,
-    "emea_count": 98
-  },
-  "traffic": {
-    "all_domains_visits": 184200,
-    "organic_percentage": 0.71,
-    "three_months_change": 0.12
-  },
-  "technologies": {
-    "has_matches": true,
-    "technologies": ["Salesforce", "Segment"],
-    "technologies_count": 2
-  },
-  "funding": {
-    "total_funding_amount": 42000000,
-    "last_funding_stage": "Series B",
-    "investors": ["Sequoia Capital", "Accel", "Index Ventures"]
-  }
-}
-```
-{% endtab %}
-{% endtabs %}
 
 <br>
 
