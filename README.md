@@ -1,8 +1,8 @@
 # GoodFit Platform Data
 
-**Your dataset. Your brand. Our intelligence.**
+**Your platform. Your configuration. Our intelligence.**
 
-GoodFit powers your dataset with 296 attributes across 25 data blocks from 14+ live sources. You configure the data layer once choosing which blocks, parameters, and quality thresholds matter for your market. Your customers access the result as your data, inside your platform. They use it to source accounts and enrich companies. They never see GoodFit.
+GoodFit powers your dataset with hundreds attributes across 25 data blocks from dozens of live sources. You configure the data layer once choosing which blocks, parameters, and quality thresholds matter for your market. Your customers access the result as your data, inside your platform. They use it to source accounts and enrich companies. They never see GoodFit.
 
 <br>
 

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Data Freshness & SLAs
 
 #### What is it?

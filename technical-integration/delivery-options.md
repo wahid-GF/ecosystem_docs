@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Delivery Options
 
 #### What is it?
