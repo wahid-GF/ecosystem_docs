@@ -25,11 +25,13 @@
 * [Technologies](what-you-configure/technologies.md)
 * [Website Performance](what-you-configure/website-performance.md)
 * [Jobs (Keyword Match)](what-you-configure/jobs-keyword-match.md)
-* [Predictive Labels](what-you-configure/predictive-labels.md)
+* [Classification Model](what-you-configure/classification-model.md)
 * [Software Profile](what-you-configure/software-profile.md)
 * [Glassdoor](what-you-configure/glassdoor.md)
 * [Company Reviews](what-you-configure/company-reviews.md)
 
 ***
 
+* [The Art of the Possible](the-art-of-the-possible.md)
+* [Why White Label](why-white-label.md)
 * [Request a Data Point](request-a-data-point.md)

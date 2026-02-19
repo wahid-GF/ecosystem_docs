@@ -1,12 +1,10 @@
 # Why White Label
 
-### What is it?
+## What is it?
 
 White label means GoodFit data lives inside your product with no GoodFit branding visible to your customers. The data appears as your own proprietary intelligence. Your customers use your UI, your filters, your terminology. GoodFit handles the data engineering behind the scenes.
 
-<br>
-
-### Why is it useful?
+## Why is it useful?
 
 Every product team building B2B software eventually faces the same question: where does company data come from?
 
@@ -22,9 +20,7 @@ By using the Partner Data Platform, you can:
 * Avoid committing engineering headcount to data infrastructure
 * Control which data blocks and attributes your customers see
 
-<br>
-
-### What does it include?
+## What does it include?
 
 | Aspect | What you get |
 | --- | --- |
@@ -33,20 +29,16 @@ By using the Partner Data Platform, you can:
 | **Delivery** | Flat file, database access, or API — shaped to your architecture |
 | **Coverage** | 296 attributes across 25 data blocks from 14+ live sources |
 | **Freshness** | No data point older than 30 days |
-| **Proprietary signals** | NLP classifications (B2B, SaaS, GTM model, predictive labels) |
+| **Proprietary signals** | NLP classifications (B2B, SaaS, GTM model, classification models) |
 | **Support** | Dedicated partnership lead and technical onboarding |
 
-<br>
-
-### Who is it for?
+## Who is it for?
 
 The Partner Data Platform is designed for companies where company data is a feature of the product, not the product itself.
 
 This typically includes CRM platforms, sales engagement tools, ABM products, conversational intelligence platforms, GTM workflow builders, and RevOps tooling. Your customers need company intelligence to do their jobs. They should not need to source it themselves.
 
-<br>
-
-### How do commercials work?
+## How do commercials work?
 
 GoodFit supports multiple commercial models, matched to how your product monetises data:
 
@@ -56,11 +48,11 @@ GoodFit supports multiple commercial models, matched to how your product monetis
 
 Your GoodFit partnership lead will recommend the model that fits your usage profile and growth trajectory.
 
-<br>
+## Build partner programme
 
-### Build partner programme
-
+{% hint style="info" %}
 We are in build partner stage. That means flexibility in how we scope, deliver, and price the integration. We want to understand your use cases and shape the offering around what your product and your customers actually need.
+{% endhint %}
 
 What we need from you to get started:
 

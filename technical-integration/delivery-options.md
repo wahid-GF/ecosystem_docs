@@ -1,16 +1,10 @@
----
-hidden: true
----
-
 # Delivery Options
 
-#### What is it?
+## What is it?
 
 Delivery options define how GoodFit data gets into your product. The right method depends on your architecture, your team's capacity, and what you are building. We support multiple approaches and are flexible on shaping new ones.
 
-<br>
-
-#### Option 1: Flat file delivery (S3)
+## Option 1: Flat file delivery (S3)
 
 Best for MVP integrations, data warehouse architectures, and teams that want full control over ingestion.
 
@@ -28,13 +22,13 @@ s3://{bucket}/{partner_prefix}/
 
 Supported formats include CSV (UTF-8), Parquet, and JSON Lines.
 
+{% hint style="info" %}
 Every delivery includes a `manifest.json` with record count, field list, checksum, and schema version. Use it for automated quality checks.
+{% endhint %}
 
 This is how most partners start. It is the lowest-lift integration — no API dependencies, no rate limits. Your existing data infrastructure handles ingestion.
 
-<br>
-
-#### Option 2: Database access
+## Option 2: Database access
 
 Best for partners who want query flexibility, real-time filtering, or to build their own query layer on top of the dataset.
 
@@ -44,19 +38,15 @@ This option provides more flexibility than flat files. You can build dynamic fil
 
 Database access is available for build partners. The specifics — hosted database, replicated dataset, query API — are shaped by partner requirements.
 
-<br>
-
-#### Option 3: API endpoints
+## Option 3: API endpoints
 
 Best for real-time enrichment, on-demand sourcing, and event-driven architectures.
 
 Structured API endpoints for sourcing (`POST /v1/markets`) and enrichment (`POST /v1/enrich`). Your platform calls GoodFit in real-time. Results come back structured and typed.
 
-See Account Sourcing and Enrichment for API reference and example payloads.
+See [Account Sourcing](../what-your-customers-get/account-sourcing.md) and [Enrichment](../what-your-customers-get/enrichment.md) for API reference and example payloads.
 
-<br>
-
-#### Choosing the right option
+## Choosing the right option
 
 | Question                       | Flat file                | Database               | API                  |
 | ------------------------------ | ------------------------ | ---------------------- | -------------------- |
@@ -66,11 +56,11 @@ See Account Sourcing and Enrichment for API reference and example payloads.
 | Engineering lift to integrate? | Low                      | Medium                 | Medium               |
 | Best for MVP?                  | Yes                      | Depends                | If API-first         |
 
+{% hint style="info" %}
 You are not locked in. Start with flat files. Move to API when you are ready. Run both in parallel during migration. The underlying dataset is the same regardless of delivery method.
+{% endhint %}
 
-<br>
-
-#### Schema mapping
+## Schema mapping
 
 GoodFit field names follow the data block structure documented in this portal — for example, `firmographics.employee_count` or `hiring.open_jobs`. Your internal schema will use different names.
 
@@ -105,3 +95,7 @@ We work with your engineering team to define a mapping. Common patterns:
 ```
 {% endtab %}
 {% endtabs %}
+
+{% content-ref url="data-freshness-and-slas.md" %}
+[data-freshness-and-slas.md](data-freshness-and-slas.md)
+{% endcontent-ref %}
