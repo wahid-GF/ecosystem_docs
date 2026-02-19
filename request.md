@@ -1,0 +1,31 @@
+# Request a Data Point
+
+### What is it?
+
+The dataset is not fixed. GoodFit adds new blocks, fields, sources, and custom classifiers based on partner requirements. If you need something that is not in the current data dictionary, you can request it.
+
+<br>
+
+### What can we build?
+
+**New data blocks.** If you need a category of data we do not currently surface — for example, patent filings, app store rankings, or podcast presence — we evaluate whether our existing source infrastructure supports it or whether a new source integration is needed.
+
+**New fields within existing blocks.** If a current block is close but missing a specific derivation or aggregation you need, we can extend it.
+
+**Custom predictive labels.** The `predictive_labels` block accepts fully custom classifiers. If you need to detect "Vertical SaaS" or "Companies selling to healthcare" or "Marketplace business model," we can train and deploy a new label.
+
+**New source integrations.** If you have a specific data source in mind that would improve coverage for your use case, we will evaluate adding it to the pipeline.
+
+<br>
+
+### How to request
+
+Reach out to your GoodFit partnership lead with:
+
+* What you need — the data point, signal, or classification you are looking for
+* Why it matters — the use case it enables for your customers
+* How you would use it — sourcing filter, enrichment field, or both
+
+We will evaluate feasibility, estimate delivery timeline, and work it into the dataset configuration.
+
+Build partners directly influence what gets built. If your request makes the dataset better for everyone, it ships faster.
