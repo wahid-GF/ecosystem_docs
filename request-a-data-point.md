@@ -20,6 +20,4 @@ The dataset is not fixed. GoodFit adds new blocks, fields, sources, and custom c
 Build partners directly influence what gets built. If your request makes the dataset better for everyone, it ships faster.
 {% endhint %}
 
-{% embed url="https://FORM_URL_HERE" %}
-Submit your data point request
-{% endembed %}
+*Formspree form will appear here once the integration is configured in GitBook.*
