@@ -3,7 +3,6 @@
 ## Overview
 
 * [GoodFit Platform Data](README.md)
-* [Common Use Cases](overview/common-use-cases.md)
 
 ## What Your Customers Get
 

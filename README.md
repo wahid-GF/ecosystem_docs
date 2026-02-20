@@ -39,7 +39,7 @@ Groups marked **Yes** under Configurable include fields that depend on your setu
 
 ## Partner programme
 
-We want to understand how data needs to live in your product and we'll shape delivery around that. Check out [Common Use Cases](overview/common-use-cases.md) for how early integrations are taking shape, or [Getting Started](technical-integration/getting-started.md) for the technical onboarding path.
+We want to understand how data needs to live in your product and we'll shape delivery around that. Check out [Getting Started](technical-integration/getting-started.md) for the technical onboarding path.
 
 ## Don't see what you need?
 
