@@ -2,6 +2,10 @@
 
 For companies that invest in other companies. Track how many investments they've made, where they invest, which industries and funding stages they focus on. All configurable fields that match against your criteria.
 
+{% hint style="info" %}
+Investment activity reveals strategic priorities. Partners use it to identify active acquirers, corporate venture arms, or companies signaling market expansion through their portfolio.
+{% endhint %}
+
 ## Fields
 
 | Field | Description |
@@ -12,4 +16,6 @@ For companies that invest in other companies. Track how many investments they've
 | List of funding stages invested in that match \* | Investment stages of investments made by the company matching your criteria |
 | List of LinkedIn industries invested in that match \* | Industries of companies the company has invested in, matching your criteria |
 
-> Fields marked with \* are configurable and depend on your dataset setup.
+{% hint style="warning" %}
+**All fields are configurable.** Results depend on the investment criteria you define during dataset setup — countries, industries, funding stages, or other filters.
+{% endhint %}

@@ -2,7 +2,11 @@
 
 How much traffic a company's website gets, where it comes from, and how it's trending. Total visits, regional breakdowns, paid vs organic split, and 3-month growth. All estimates are monthly aggregations.
 
-## Fields
+{% hint style="info" %}
+Traffic data is a strong proxy for company reach and momentum. Partners use total visits as an alternative size signal and regional breakdowns to identify geographic focus and expansion.
+{% endhint %}
+
+## Overview
 
 | Field | Description |
 | --- | --- |
@@ -12,6 +16,11 @@ How much traffic a company's website gets, where it comes from, and how it's tre
 | Percentage of traffic from paid sources | Estimated percentage of visits through paid channels (advertising) |
 | 3 Months traffic change percentage | Percentage change in visits over the last 3 months |
 | Top traffic countries | Countries where at least 5% of traffic came from in the previous month |
+
+## Regional breakdown
+
+| Field | Description |
+| --- | --- |
 | North America traffic % | Percentage of website traffic from North America |
 | North America traffic visits | Count of website visits from North America |
 | Europe traffic % | Percentage of website traffic from Europe |

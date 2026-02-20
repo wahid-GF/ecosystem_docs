@@ -2,6 +2,10 @@
 
 If a company sells software, this group tells you about their product footprint. Review counts, ratings, product categories, and whether their reviews or features match your configured keywords.
 
+{% hint style="info" %}
+For partners selling to software companies, this group identifies what products a company offers, how they're rated, and whether their feature set or reviews mention your keywords.
+{% endhint %}
+
 ## Fields
 
 | Field | Description |

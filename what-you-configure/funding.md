@@ -2,6 +2,10 @@
 
 Investment history for every company in your dataset. Use these fields to filter by funding stage, identify recently funded companies, or segment by total capital raised.
 
+{% hint style="info" %}
+Recently funded companies are often actively evaluating new tools and services. Partners use funding stage and recency as buying-intent signals.
+{% endhint %}
+
 ## Fields
 
 | Field | Description |

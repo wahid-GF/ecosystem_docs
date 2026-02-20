@@ -2,6 +2,10 @@
 
 The basics about every company in your dataset. Name, domain, size, type, and other firmographic data that forms the foundation of any account record.
 
+{% hint style="info" %}
+These fields map directly into most CRM or account models. They're the starting point for every record and the most common enrichment request.
+{% endhint %}
+
 ## Fields
 
 | Field | Description |
