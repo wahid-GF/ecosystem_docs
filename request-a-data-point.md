@@ -19,5 +19,3 @@ The dataset isn't fixed. GoodFit adds new groups, fields, and custom classifiers
 {% hint style="info" %}
 Build partners directly influence what gets built. If your request makes the dataset better for everyone, it ships faster.
 {% endhint %}
-
-*Formspree form will appear here once the integration is configured in GitBook.*

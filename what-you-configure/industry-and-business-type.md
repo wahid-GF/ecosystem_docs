@@ -10,7 +10,6 @@ Partners use these fields to build vertical market filters. The NLP classificati
 
 | Field | Description | Example |
 | --- | --- | --- |
-| Crunchbase industries | List of industries associated with the company | Software, Information Technology |
 | LinkedIn industry | Top-level industry classification | Computer Software |
 | LinkedIn specialities | List of specialties associated with the company | Cloud Computing, Data Analytics |
 | Software categories | Software category classification | CRM, Marketing Automation |
@@ -30,14 +29,12 @@ Partners use these fields to build vertical market filters. The NLP classificati
 
 ## Custom classification models
 
-| Field | Description | Example |
-| --- | --- | --- |
-| Primary label for classification model that matches \* | Primary label that this company best matches for this model (if any) | Vertical SaaS |
-| List of labels for classification model that match \* | All labels that match this company for this model | Vertical SaaS, HR Tech |
-| Probability of classification model that matches \* | Probability score for the primary label | 0.87 |
+You can define fully custom classification models during dataset setup. Tell us the labels you care about (e.g. "Vertical SaaS," "HR Tech," "Marketplace"), and GoodFit will train a model that scores every company in your dataset against those labels.
+
+Each model returns a primary label (the best match), all matching labels, and a probability score so your customers can filter or rank by confidence. For example, a company might return "Vertical SaaS" as the primary label with a probability of 0.87.
 
 {% hint style="warning" %}
-Fields marked with \* are **configurable**. You define the classification models and labels during dataset setup.
+Classification models are **configurable**. You define the models, labels, and thresholds during dataset setup. Each model you add produces its own set of results.
 {% endhint %}
 
 > **Shared fields**: Software categories and Software sub-categories also appear in [Software Products](software-products.md).

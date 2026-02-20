@@ -21,7 +21,7 @@ These groups form your dataset. You define the parameters. Your customers query 
 
 | Group | Fields | Configurable |
 | --- | ---: | --- |
-| [Industry & Business Type](what-you-configure/industry-and-business-type.md) | 15 | Yes |
+| [Industry & Business Type](what-you-configure/industry-and-business-type.md) | 11 | Yes |
 | [Company Information](what-you-configure/company-information.md) | 11 | No |
 | [Location](what-you-configure/location.md) | 11 | No |
 | [Funding](what-you-configure/funding.md) | 5 | No |
@@ -29,11 +29,11 @@ These groups form your dataset. You define the parameters. Your customers query 
 | [Hiring](what-you-configure/hiring.md) | 15 | No |
 | [Team](what-you-configure/team.md) | 13 | No |
 | [Software Products](what-you-configure/software-products.md) | 8 | No |
-| [Website](what-you-configure/website.md) | 7 | Yes |
+| [Website](what-you-configure/website.md) | 4 | No |
 | [Website Traffic](what-you-configure/website-traffic.md) | 22 | No |
 | [Company Reviews](what-you-configure/company-reviews.md) | 2 | Yes |
 | [Investments](what-you-configure/investments.md) | 5 | Yes |
-| [Technologies](what-you-configure/technologies.md) | 2 | Yes |
+| [Technologies](what-you-configure/technologies.md) | – | Yes |
 
 Groups marked **Yes** under Configurable include fields that depend on your setup: keyword lists, classification models, technology filters, or review criteria you define when building your dataset. All other fields are included automatically.
 
