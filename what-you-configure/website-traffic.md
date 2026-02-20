@@ -8,32 +8,32 @@ Traffic data is a strong proxy for company reach and momentum. Partners use tota
 
 ## Overview
 
-| Field | Description |
-| --- | --- |
-| Total visits across all domains | Estimated total monthly visits across all company websites. Multiple domains are summed. |
-| Percentage of traffic from company HQ country | Estimated percentage of visits from the same country as company HQ |
-| Percentage of traffic from international countries | Estimated percentage of visits from countries other than the HQ country |
-| Percentage of traffic from paid sources | Estimated percentage of visits through paid channels (advertising) |
-| 3 Months traffic change percentage | Percentage change in visits over the last 3 months |
-| Top traffic countries | Countries where at least 5% of traffic came from in the previous month |
+| Field | Description | Example |
+| --- | --- | --- |
+| Total visits across all domains | Estimated total monthly visits across all company websites. Multiple domains are summed. | 245,000 |
+| Percentage of traffic from company HQ country | Estimated percentage of visits from the same country as company HQ | 62% |
+| Percentage of traffic from international countries | Estimated percentage of visits from countries other than the HQ country | 38% |
+| Percentage of traffic from paid sources | Estimated percentage of visits through paid channels (advertising) | 15% |
+| 3 Months traffic change percentage | Percentage change in visits over the last 3 months | +12% |
+| Top traffic countries | Countries where at least 5% of traffic came from in the previous month | US, UK, DE |
 
 ## Regional breakdown
 
-| Field | Description |
-| --- | --- |
-| North America traffic % | Percentage of website traffic from North America |
-| North America traffic visits | Count of website visits from North America |
-| Europe traffic % | Percentage of website traffic from Europe |
-| Europe traffic visits | Count of website visits from Europe |
-| South America traffic % | Percentage of website traffic from South America |
-| South America traffic visits | Count of website visits from South America |
-| Asia traffic % | Percentage of website traffic from Asia |
-| Asia traffic visits | Count of website visits from Asia |
-| Middle East traffic % | Percentage of website traffic from the Middle East |
-| Middle East traffic visits | Count of website visits from the Middle East |
-| ANZ traffic % | Percentage of website traffic from Australia and New Zealand |
-| ANZ traffic visits | Count of website visits from Australia and New Zealand |
-| Africa traffic % | Percentage of website traffic from Africa |
-| Africa traffic visits | Count of website visits from Africa |
-| Other regions traffic % | Percentage of website traffic from other regions |
-| Other regions traffic visits | Count of website visits from other regions |
+| Field | Description | Example |
+| --- | --- | --- |
+| North America traffic % | Percentage of website traffic from North America | 58% |
+| North America traffic visits | Count of website visits from North America | 142,100 |
+| Europe traffic % | Percentage of website traffic from Europe | 28% |
+| Europe traffic visits | Count of website visits from Europe | 68,600 |
+| South America traffic % | Percentage of website traffic from South America | 3% |
+| South America traffic visits | Count of website visits from South America | 7,350 |
+| Asia traffic % | Percentage of website traffic from Asia | 7% |
+| Asia traffic visits | Count of website visits from Asia | 17,150 |
+| Middle East traffic % | Percentage of website traffic from the Middle East | 1% |
+| Middle East traffic visits | Count of website visits from the Middle East | 2,450 |
+| ANZ traffic % | Percentage of website traffic from Australia and New Zealand | 2% |
+| ANZ traffic visits | Count of website visits from Australia and New Zealand | 4,900 |
+| Africa traffic % | Percentage of website traffic from Africa | 0.5% |
+| Africa traffic visits | Count of website visits from Africa | 1,225 |
+| Other regions traffic % | Percentage of website traffic from other regions | 0.5% |
+| Other regions traffic visits | Count of website visits from other regions | 1,225 |

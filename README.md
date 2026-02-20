@@ -4,14 +4,14 @@
 **Your platform. Your configuration. Our intelligence.**
 {% endhint %}
 
-GoodFit powers your dataset with over 100 attributes across 13 data groups. You configure the data layer once, choosing which groups, parameters, and quality thresholds matter for your market. Your customers see it as your data, inside your platform. They never see GoodFit.
+GoodFit powers your dataset with 100s of attributes across 13 data groups. You configure the data layer once, choosing which groups, parameters, and quality thresholds matter for your market. Your customers see it as your data, inside your platform. They never see GoodFit.
 
 ## What your customers get
 
 | Capability | What it does |
 | --- | --- |
 | [**Account Sourcing**](what-your-customers-get/account-sourcing.md) | Your customers build their TAM from your dataset. They define their market, preview qualifying companies, and get continuously refreshed accounts. |
-| [**Enrichment**](what-your-customers-get/enrichment.md) | Your customers pass a company and get back up to 296 attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider. |
+| [**Enrichment**](what-your-customers-get/enrichment.md) | Your customers pass a company and get back 100s of attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider. |
 
 Both capabilities draw from the same data groups listed below. You configure the groups once. Your customers use them as sourcing filters or enrichment fields.
 

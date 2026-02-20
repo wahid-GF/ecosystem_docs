@@ -8,10 +8,10 @@ Technographic targeting is one of the highest-signal filters for sales teams. Pa
 
 ## Fields
 
-| Field | Description |
-| --- | --- |
-| Has technologies that match \* | Whether matching technology was identified via company website or job descriptions |
-| List of technologies that match \* | List of technologies identified via company website or job descriptions |
+| Field | Description | Example |
+| --- | --- | --- |
+| Has technologies that match \* | Whether matching technology was identified via company website or job descriptions | true |
+| List of technologies that match \* | List of technologies identified via company website or job descriptions | Salesforce, React, AWS |
 
 {% hint style="warning" %}
 **Both fields are configurable.** Results depend on the technology list you define during dataset setup.

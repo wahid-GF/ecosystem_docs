@@ -8,18 +8,18 @@ Geographic filtering is one of the most-used capabilities. Partners combine HQ l
 
 ## Fields
 
-| Field | Description |
-| --- | --- |
-| City | Company's headquarters city |
-| Continent | Company's headquarters continent |
-| Region | Company's headquarters region |
-| State | If headquartered in the US, the state |
-| Country | Company's headquarters country |
-| List of office location countries | Official office location countries |
-| Open jobs countries | List of countries where open roles are located |
-| Hiring countries outside office locations | Countries outside company office locations where jobs are published |
-| Primary location country | Country where most employees are located |
-| Team countries | List of countries where employees are located |
-| Team countries outside office locations | Countries where employees are located outside official office locations |
+| Field | Description | Example |
+| --- | --- | --- |
+| City | Company's headquarters city | San Francisco |
+| Continent | Company's headquarters continent | North America |
+| Region | Company's headquarters region | Americas |
+| State | If headquartered in the US, the state | California |
+| Country | Company's headquarters country | United States |
+| List of office location countries | Official office location countries | United States, United Kingdom |
+| Open jobs countries | List of countries where open roles are located | United States, Germany, India |
+| Hiring countries outside office locations | Countries outside company office locations where jobs are published | Germany, India |
+| Primary location country | Country where most employees are located | United States |
+| Team countries | List of countries where employees are located | United States, United Kingdom, India |
+| Team countries outside office locations | Countries where employees are located outside official office locations | India |
 
 > **Shared fields**: Country also appears in [Company Information](company-information.md). Open jobs countries and Hiring countries outside office locations also appear in [Hiring](hiring.md). Primary location country, Team countries, and Team countries outside office locations also appear in [Team](team.md).

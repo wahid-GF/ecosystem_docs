@@ -21,7 +21,7 @@ Walk us through your product, your user base, and where company data fits. We'll
 {% endstep %}
 {% step %}
 ### Dataset configuration
-With your GoodFit partnership lead, you'll define which data blocks are included, how Dynamic blocks are configured, and which attributes matter for your market. We handle the data engineering.
+With your GoodFit partnership lead, you'll define which data groups are included, how configurable groups are set up, and which attributes matter for your market. We handle the data engineering.
 {% endstep %}
 {% step %}
 ### Delivery setup

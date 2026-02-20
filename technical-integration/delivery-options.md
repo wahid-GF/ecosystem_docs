@@ -83,7 +83,7 @@ See [Account Sourcing](../what-your-customers-get/account-sourcing.md) and [Enri
 
 ## Schema mapping
 
-GoodFit field names follow the data block structure documented in this portal, for example `firmographics.employee_count` or `hiring.open_jobs`. Your internal schema will use different names.
+GoodFit field names follow the data group structure documented in this portal, for example `firmographics.employee_count` or `hiring.open_jobs`. Your internal schema will use different names.
 
 We'll work with your engineering team to define a mapping. Common patterns:
 

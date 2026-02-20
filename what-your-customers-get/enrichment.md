@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Enrichment fills in everything that's missing about companies your customers already have. They pass a company (a domain, a name, a CRM ID) and get back up to 296 structured attributes from your dataset.
+Enrichment fills in everything that's missing about companies your customers already have. They pass a company (a domain, a name, a CRM ID) and get back 100s of structured attributes from your dataset.
 
 Firmographics, hiring signals, team composition, traffic, tech stack, funding, reviews, and proprietary NLP classifications. One call. Structured, typed, sourced data back.
 
@@ -29,7 +29,7 @@ Here's what that unlocks:
 {% stepper %}
 {% step %}
 ### Define the dataset
-You work with GoodFit to choose which data blocks and attributes are included. You configure Dynamic blocks with the parameters that matter for your customer base. Your dataset, tuned to your market.
+You work with GoodFit to choose which data groups and attributes are included. You configure groups with the parameters that matter for your customer base. Your dataset, tuned to your market.
 {% endstep %}
 {% step %}
 ### Customer passes a company

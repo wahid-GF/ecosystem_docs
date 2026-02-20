@@ -8,10 +8,10 @@ Review keyword matching lets partners surface companies whose customers are talk
 
 ## Fields
 
-| Field | Description |
-| --- | --- |
-| Has reviews that match \* | Whether a review with a keyword match exists |
-| Number of reviews that match \* | Count of reviews matching your configured keyword criteria |
+| Field | Description | Example |
+| --- | --- | --- |
+| Has reviews that match \* | Whether a review with a keyword match exists | true |
+| Number of reviews that match \* | Count of reviews matching your configured keyword criteria | 12 |
 
 {% hint style="warning" %}
 **Both fields are configurable.** Results depend entirely on the keywords you define during dataset setup. No keywords configured means no results returned.

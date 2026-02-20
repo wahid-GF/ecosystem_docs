@@ -8,33 +8,33 @@ Partners use these fields to build vertical market filters. The NLP classificati
 
 ## Industry classification
 
-| Field | Description |
-| --- | --- |
-| Crunchbase industries | List of industries associated with the company |
-| LinkedIn industry | Top-level industry classification |
-| LinkedIn specialities | List of specialties associated with the company |
-| Software categories | Software category classification |
-| Software sub-categories | Software sub-category classification |
+| Field | Description | Example |
+| --- | --- | --- |
+| Crunchbase industries | List of industries associated with the company | Software, Information Technology |
+| LinkedIn industry | Top-level industry classification | Computer Software |
+| LinkedIn specialities | List of specialties associated with the company | Cloud Computing, Data Analytics |
+| Software categories | Software category classification | CRM, Marketing Automation |
+| Software sub-categories | Software sub-category classification | Sales CRM, Email Marketing |
 
 ## GoodFit NLP classifications
 
-| Field | Description |
-| --- | --- |
-| Is B2B? | B2B classification based on GoodFit's NLP analysis of the company website |
-| Is B2C? | B2C classification based on GoodFit's NLP analysis of the company website |
-| Is SaaS company? | SaaS classification based on GoodFit's NLP analysis of the company website |
-| Is technology company? | Technology classification based on GoodFit's NLP analysis of the company website |
-| Is e-commerce company? | E-commerce classification based on GoodFit's NLP analysis of the company website |
-| GTM model | Product Led or Sales Assisted classification based on GoodFit's NLP analysis of the company website |
-| Target user | B2B or B2C target user classification based on GoodFit's NLP analysis of the company website |
+| Field | Description | Example |
+| --- | --- | --- |
+| Is B2B? | B2B classification based on GoodFit's NLP analysis of the company website | true |
+| Is B2C? | B2C classification based on GoodFit's NLP analysis of the company website | false |
+| Is SaaS company? | SaaS classification based on GoodFit's NLP analysis of the company website | true |
+| Is technology company? | Technology classification based on GoodFit's NLP analysis of the company website | true |
+| Is e-commerce company? | E-commerce classification based on GoodFit's NLP analysis of the company website | false |
+| GTM model | Product Led or Sales Assisted classification based on GoodFit's NLP analysis of the company website | Product Led |
+| Target user | B2B or B2C target user classification based on GoodFit's NLP analysis of the company website | B2B |
 
 ## Custom classification models
 
-| Field | Description |
-| --- | --- |
-| Primary label for classification model that matches \* | Primary label that this company best matches for this model (if any) |
-| List of labels for classification model that match \* | All labels that match this company for this model |
-| Probability of classification model that matches \* | Probability score for the primary label |
+| Field | Description | Example |
+| --- | --- | --- |
+| Primary label for classification model that matches \* | Primary label that this company best matches for this model (if any) | Vertical SaaS |
+| List of labels for classification model that match \* | All labels that match this company for this model | Vertical SaaS, HR Tech |
+| Probability of classification model that matches \* | Probability score for the primary label | 0.87 |
 
 {% hint style="warning" %}
 Fields marked with \* are **configurable**. You define the classification models and labels during dataset setup.

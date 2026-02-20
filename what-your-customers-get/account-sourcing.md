@@ -24,11 +24,11 @@ Here's what that unlocks:
 {% stepper %}
 {% step %}
 ### Build the dataset
-You work with GoodFit to define which companies are included, which attributes matter, and how Dynamic blocks are configured. You do this once, then refine over time. Your customers never see this layer.
+You work with GoodFit to define which companies are included, which attributes matter, and how configurable groups are set up. You do this once, then refine over time. Your customers never see this layer.
 {% endstep %}
 {% step %}
 ### Customers define their market
-Inside your platform, they set their ICP using the filters you've exposed: company size, geography, industry, tech stack, team composition. Behind the scenes, these map to GoodFit data block attributes.
+Inside your platform, they set their ICP using the filters you've exposed: company size, geography, industry, tech stack, team composition. Behind the scenes, these map to GoodFit data group attributes.
 {% endstep %}
 {% step %}
 ### They preview before committing
@@ -45,27 +45,27 @@ Once published, the market is alive. New qualifying companies show up. Companies
 <details>
 <summary>View all available filters</summary>
 
-Every data block can be used as a sourcing filter. Here are the most common:
+Every data group can be used as a sourcing filter. Here are the most common:
 
-| Filter                | Block                          | Example                                             |
-| --------------------- | ------------------------------ | --------------------------------------------------- |
-| Company size          | `firmographics.employee_count` | `{ "min": 50, "max": 500 }`                         |
-| Geography             | `firmographics.country`        | `{ "in": ["United States", "Germany"] }`            |
-| Business model        | `firmographics.is_b2b`         | `true`                                              |
-| SaaS detection        | `firmographics.is_saas`        | `true`                                              |
-| GTM model             | `firmographics.gtm_model`      | `{ "contains": "Product Led" }`                     |
-| Funding stage         | `funding.last_funding_stage`   | `{ "in": ["Series A", "Series B"] }`               |
-| Tech stack            | `technologies`                 | `{ "match": ["Salesforce"], "has_matches": true }`  |
-| Hiring activity       | `hiring.open_jobs`             | `{ "min": 5 }`                                      |
-| Sales team exists     | `team_members`                 | `{ "departments": ["sales"], "has_matches": true }` |
-| Job keywords          | `jobs`                         | `{ "titleKeywords": ["data engineer"] }`            |
-| Traffic volume        | `traffic.all_domains_visits`   | `{ "min": 50000 }`                                  |
-| Classification Model  | `classification_model`         | `{ "primary_label": "Vertical SaaS" }`              |
+| Filter | Group | Example |
+| --- | --- | --- |
+| Company size | [Company Information](../what-you-configure/company-information.md) | `{ "min": 50, "max": 500 }` |
+| Geography | [Location](../what-you-configure/location.md) | `{ "in": ["United States", "Germany"] }` |
+| Business model | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `true` |
+| SaaS detection | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `true` |
+| GTM model | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `{ "contains": "Product Led" }` |
+| Funding stage | [Funding](../what-you-configure/funding.md) | `{ "in": ["Series A", "Series B"] }` |
+| Tech stack | [Technologies](../what-you-configure/technologies.md) | `{ "match": ["Salesforce"], "has_matches": true }` |
+| Hiring activity | [Hiring](../what-you-configure/hiring.md) | `{ "min": 5 }` |
+| Team composition | [Team](../what-you-configure/team.md) | `{ "departments": ["sales"], "has_matches": true }` |
+| Job keywords | [Hiring](../what-you-configure/hiring.md) | `{ "titleKeywords": ["data engineer"] }` |
+| Traffic volume | [Website Traffic](../what-you-configure/website-traffic.md) | `{ "min": 50000 }` |
+| Classification model | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `{ "primary_label": "Vertical SaaS" }` |
 
 </details>
 
 {% hint style="success" %}
-Dynamic blocks as filters are the differentiator. These aren't static fields. They're queries you defined when building your dataset, producing signals no other provider can offer as sourcing criteria.
+Configurable groups as filters are the differentiator. These aren't static fields. They're queries you defined when building your dataset, producing signals no other provider can offer as sourcing criteria.
 {% endhint %}
 
 {% content-ref url="enrichment.md" %}

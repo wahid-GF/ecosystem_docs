@@ -8,15 +8,15 @@ Website content signals buying intent and market positioning. Currency detection
 
 ## Fields
 
-| Field | Description |
-| --- | --- |
-| List of currencies on website | List of currencies identified on the company's pricing page |
-| List of languages on website | List of languages identified on the company's website |
-| Website description | Company's meta website description |
-| Website main page text matches | Whether the company's main page text contains any of your configured keywords |
-| List of keywords on website main page text that matches | List of your configured keywords found on the company's main page text |
-| List of elements on website that match \* | List of page elements discovered on the website |
-| Has URLs on website that match \* | Whether a page with a fuzzy keyword match on the page URL exists |
+| Field | Description | Example |
+| --- | --- | --- |
+| List of currencies on website | List of currencies identified on the company's pricing page | USD, EUR, GBP |
+| List of languages on website | List of languages identified on the company's website | English, German, French |
+| Website description | Company's meta website description | Acme helps teams collaborate... |
+| Website main page text matches | Whether the company's main page text contains any of your configured keywords | true |
+| List of keywords on website main page text that matches | List of your configured keywords found on the company's main page text | data analytics, automation |
+| List of elements on website that match \* | List of page elements discovered on the website | pricing-page, demo-request |
+| Has URLs on website that match \* | Whether a page with a fuzzy keyword match on the page URL exists | true |
 
 {% hint style="warning" %}
 Fields marked with \* are **configurable**. You define the page elements and URL keywords to detect during dataset setup.
