@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Investments
 
 For companies that invest in other companies. Track how many investments they've made, where they invest, which industries and funding stages they focus on. All configurable fields that match against your criteria.
