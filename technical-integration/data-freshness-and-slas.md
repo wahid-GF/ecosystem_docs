@@ -16,18 +16,20 @@ No data point older than 30 days. In practice, high-traffic entities refresh con
 
 Stale data erodes trust. If your customers see a company listed as "50 employees" when it's actually 500, they stop trusting your platform. Freshness isn't a nice-to-have; it's what separates a live dataset from a static dump.
 
-## Refresh cadences by source
+## Refresh cadences
 
-| Source                                 | Refresh cadence               | Notes                                                                                                |
-| -------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------- |
-| LinkedIn profiles                      | Continuous for active queries | Large companies queried frequently refresh constantly. Smaller ones refresh at minimum monthly.       |
-| LinkedIn Jobs / Indeed                 | Daily                         | Job data is the most time-sensitive signal we track.                                                 |
-| Semrush traffic                        | Monthly                       | Traffic estimates are inherently monthly aggregations.                                               |
-| Crunchbase / Dealroom                  | Weekly                        | Funding events, M\&A, and company updates.                                                           |
-| BuiltWith / SimilarTech                | Weekly                        | Technology stack detection and changes.                                                              |
-| G2 / Capterra / Trustpilot / Glassdoor | Weekly                        | Reviews, ratings, and software profiles.                                                             |
-| Lighthouse                             | Monthly                       | Website performance metrics.                                                                         |
-| GoodFit NLP                            | On crawl (continuous)         | Website classification, B2B/SaaS detection, GTM model.                                               |
+| Data category | Refresh cadence | Notes |
+| --- | --- | --- |
+| Company profiles & firmographics | Continuous for active queries | Large companies refresh constantly. Smaller ones at minimum monthly. |
+| Job postings & hiring activity | Daily | Most time-sensitive signal we track. |
+| Website traffic estimates | Monthly | Inherently monthly aggregations. |
+| Funding & investment data | Weekly | Funding events, M&A, and company updates. |
+| Technology detection | Weekly | Tech stack detection and changes. |
+| Software reviews & ratings | Weekly | Product reviews and rating data. |
+| Employee sentiment | Weekly | Employee reviews, ratings, and sentiment. |
+| Company reviews | Weekly | Customer-facing reviews and ratings. |
+| Website performance | Monthly | Speed and performance metrics. |
+| Business classification & NLP | On crawl (continuous) | B2B/SaaS detection, GTM model, custom classifiers. |
 
 For companies that get queried a lot, data refreshes on every crawl cycle. For less-queried companies, it refreshes at the minimum cadence for each source, but never older than 30 days.
 
