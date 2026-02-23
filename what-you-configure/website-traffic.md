@@ -21,7 +21,8 @@ Traffic data is a strong proxy for company reach and momentum. Partners use tota
 | 3 Months traffic change percentage                 | Percentage change in visits over the last 3 months                                       | +12%       |
 | Top traffic countries                              | Countries where at least 5% of traffic came from in the previous month                   | US, UK, DE |
 
-## Regional breakdown
+<details>
+<summary>Regional breakdown</summary>
 
 | Field                        | Description                                                  | Example |
 | ---------------------------- | ------------------------------------------------------------ | ------- |
@@ -41,3 +42,5 @@ Traffic data is a strong proxy for company reach and momentum. Partners use tota
 | Africa traffic visits        | Count of website visits from Africa                          | 1,225   |
 | Other regions traffic %      | Percentage of website traffic from other regions             | 0.5%    |
 | Other regions traffic visits | Count of website visits from other regions                   | 1,225   |
+
+</details>

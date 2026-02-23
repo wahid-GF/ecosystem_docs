@@ -55,7 +55,21 @@ If a delivery is delayed or has quality issues:
 
 We'd recommend setting up these checks on your side:
 
-* **Delivery arrival**: Alert if the expected file isn't in S3 within two hours of the scheduled window.
-* **Record count**: Alert if the manifest record count deviates more than 10% from the trailing average.
-* **Checksum**: Verify `checksum_sha256` before processing and reject files that fail integrity checks.
-* **Schema version**: Alert if `schema_version` changes, and review new fields before ingesting.
+{% stepper %}
+{% step %}
+### Delivery arrival
+Alert if the expected file isn't in S3 within two hours of the scheduled window.
+{% endstep %}
+{% step %}
+### Record count
+Alert if the manifest record count deviates more than 10% from the trailing average.
+{% endstep %}
+{% step %}
+### Checksum
+Verify `checksum_sha256` before processing and reject files that fail integrity checks.
+{% endstep %}
+{% step %}
+### Schema version
+Alert if `schema_version` changes, and review new fields before ingesting.
+{% endstep %}
+{% endstepper %}

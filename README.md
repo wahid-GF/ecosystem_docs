@@ -4,22 +4,34 @@
 **Your platform. Your configuration. Our intelligence.**
 {% endhint %}
 
-GoodFit powers your dataset with 100s of attributes across 10 data blocks out of the box and more upon request. You configure the data layer once, choosing which groups, parameters matter for your market. Allowing you to then open access inside your platform without having to maintain their own data infrastructure and contracts.
+GoodFit powers your dataset with 100s of attributes across 10 data blocks out of the box and more upon request. You configure the data layer once, choosing which blocks and parameters matter for your product. Allowing you to then open access inside your platform without having to maintain their own data infrastructure and contracts.
 
 ## What your customers get
 
-| Capability                                                          | What it does                                                                                                                                             |
-| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Account Sourcing**](what-your-customers-get/account-sourcing.md) | Your customers build their market from your dataset. They define their market, preview qualifying companies, and source continuously refreshed accounts. |
-| [**Enrichment**](what-your-customers-get/enrichment.md)             | Your customers pass a company and get back 100s of attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider.            |
+<table data-view="cards">
+<thead><tr>
+  <th></th>
+  <th></th>
+</tr></thead>
+<tbody>
+<tr>
+  <td><a href="what-your-customers-get/account-sourcing.md"><strong>Account Sourcing</strong></a></td>
+  <td>Your customers build their market from your dataset. They define their market, preview qualifying companies, and source continuously refreshed accounts.</td>
+</tr>
+<tr>
+  <td><a href="what-your-customers-get/enrichment.md"><strong>Enrichment</strong></a></td>
+  <td>Your customers pass a company and get back 100s of attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider.</td>
+</tr>
+</tbody>
+</table>
 
-Both capabilities draw from the same data groups listed below. You configure the groups once. Your customers use them as sourcing filters or enrichment fields.
+Both capabilities draw from the same data blocks listed below. You configure the blocks once. Your customers use them as sourcing filters or enrichment fields.
 
 ## What you configure
 
-These groups form your dataset. You define the parameters. Your customers query the result.
+These blocks form your dataset. You define the parameters. Your customers query the result.
 
-| Group                                                                        | Configurable |
+| Block                                                                        | Configurable |
 | ---------------------------------------------------------------------------- | ------------ |
 | [Industry & Business Type](what-you-configure/industry-and-business-type.md) | Yes          |
 | [Company Information](what-you-configure/company-information.md)             | No           |
@@ -27,12 +39,11 @@ These groups form your dataset. You define the parameters. Your customers query 
 | [Employee Sentiment](what-you-configure/employee-sentiment.md)               | No           |
 | [Hiring](what-you-configure/hiring.md)                                       | Yes          |
 | [Team](what-you-configure/team.md)                                           | Yes          |
-| [Software Products](what-you-configure/software-products.md)                 | No           |
 | [Website](what-you-configure/website.md)                                     | No           |
 | [Company Reviews](what-you-configure/company-reviews.md)                     | Yes          |
 | [Technologies](what-you-configure/technologies.md)                           | Yes          |
 
-> Groups marked **Yes** under Configurable include fields that depend on your setup: keyword lists, classification models, technology filters, or review criteria you define when building your dataset.&#x20;
+> Blocks marked **Yes** under Configurable include fields that depend on your setup: keyword lists, AI Industry / Business Type Labels, technology filters, or review criteria you define when building your dataset.&#x20;
 
 ## Partner programme
 
@@ -40,7 +51,7 @@ We want to understand how data needs to live in your product and we'll shape del
 
 ## Don't see what you need?
 
-The dataset isn't fixed. We add new groups, fields, and custom classifiers based on what partners need.
+The dataset isn't fixed. We add new blocks, fields, and custom classifiers based on what partners need.
 
 {% content-ref url="request-a-data-point.md" %}
 [request-a-data-point.md](request-a-data-point.md)

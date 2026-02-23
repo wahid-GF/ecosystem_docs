@@ -17,3 +17,15 @@ The dataset isn't fixed. GoodFit adds new groups, fields, and custom classifiers
 {% hint style="info" %}
 Build partners directly influence what gets built. If your request makes the dataset better for everyone, it ships faster.
 {% endhint %}
+
+{% content-ref url="technical-integration/getting-started.md" %}
+[getting-started.md](technical-integration/getting-started.md)
+{% endcontent-ref %}
+
+{% content-ref url="what-your-customers-get/account-sourcing.md" %}
+[account-sourcing.md](what-your-customers-get/account-sourcing.md)
+{% endcontent-ref %}
+
+{% content-ref url="what-your-customers-get/enrichment.md" %}
+[enrichment.md](what-your-customers-get/enrichment.md)
+{% endcontent-ref %}
