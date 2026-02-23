@@ -22,6 +22,7 @@ Traffic data is a strong proxy for company reach and momentum. Partners use tota
 | Top traffic countries                              | Countries where at least 5% of traffic came from in the previous month                   | US, UK, DE |
 
 <details>
+
 <summary>Regional breakdown</summary>
 
 | Field                        | Description                                                  | Example |

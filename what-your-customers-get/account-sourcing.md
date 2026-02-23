@@ -49,20 +49,20 @@ Once published, the market stays live. New companies appear the moment they qual
 
 Every data block can be used as a sourcing filter. Here are the most common:
 
-| Filter                            | Block                                                                    | Example                                             |
-| --------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------- |
-| Company size                      | [Company Information](../data-blocks/company-information.md)             | `{ "min": 50, "max": 500 }`                         |
-| Geography                         | [Location](../data-blocks/location.md)                                   | `{ "in": ["United States", "Germany"] }`            |
-| Business model                    | [Industry & Business Type](../data-blocks/industry-and-business-type.md) | `true`                                              |
-| SaaS detection                    | [Industry & Business Type](../data-blocks/industry-and-business-type.md) | `true`                                              |
-| GTM model                         | [Industry & Business Type](../data-blocks/industry-and-business-type.md) | `{ "contains": "Product Led" }`                     |
-| Funding stage                     | [Funding](../data-blocks/funding.md)                                     | `{ "in": ["Series A", "Series B"] }`                |
-| Tech stack                        | [Technologies](../data-blocks/technologies.md)                           | `{ "match": ["Salesforce"], "has_matches": true }`  |
-| Hiring activity                   | [Hiring](../data-blocks/hiring.md)                                       | `{ "min": 5 }`                                      |
-| Team composition                  | [Team](../data-blocks/team.md)                                           | `{ "departments": ["sales"], "has_matches": true }` |
-| Job keywords                      | [Hiring](../data-blocks/hiring.md)                                       | `{ "titleKeywords": ["data engineer"] }`            |
-| Traffic volume                    | [Website Traffic](../data-blocks/website-traffic.md)                     | `{ "min": 50000 }`                                  |
-| AI Industry / Business Type Label | [Industry & Business Type](../data-blocks/industry-and-business-type.md) | `{ "primary_label": "Vertical SaaS" }`              |
+| Filter                            | Block                                                                           | Example                                             |
+| --------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Company size                      | [Company Information](../what-you-configure/company-information.md)             | `{ "min": 50, "max": 500 }`                         |
+| Geography                         | [Location](../what-you-configure/location.md)                                   | `{ "in": ["United States", "Germany"] }`            |
+| Business model                    | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `true`                                              |
+| SaaS detection                    | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `true`                                              |
+| GTM model                         | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `{ "contains": "Product Led" }`                     |
+| Funding stage                     | [Funding](../what-you-configure/funding.md)                                     | `{ "in": ["Series A", "Series B"] }`                |
+| Tech stack                        | [Technologies](../what-you-configure/technologies.md)                           | `{ "match": ["Salesforce"], "has_matches": true }`  |
+| Hiring activity                   | [Hiring](../what-you-configure/hiring.md)                                       | `{ "min": 5 }`                                      |
+| Team composition                  | [Team](../what-you-configure/team.md)                                           | `{ "departments": ["sales"], "has_matches": true }` |
+| Job keywords                      | [Hiring](../what-you-configure/hiring.md)                                       | `{ "titleKeywords": ["data engineer"] }`            |
+| Traffic volume                    | [Website Traffic](../what-you-configure/website-traffic.md)                     | `{ "min": 50000 }`                                  |
+| AI Industry / Business Type Label | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `{ "primary_label": "Vertical SaaS" }`              |
 
 </details>
 
