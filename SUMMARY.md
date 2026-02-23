@@ -14,20 +14,20 @@
 * [Getting Started](technical-integration/getting-started.md)
 * [Delivery Options](technical-integration/delivery-options.md)
 
-## What You Configure
+## Data Blocks
 
-* [Company Information](what-you-configure/company-information.md)
-* [Industry & Business Type](what-you-configure/industry-and-business-type.md)
-* [Location](what-you-configure/location.md)
-* [Funding](what-you-configure/funding.md)
-* [Team](what-you-configure/team.md)
-* [Employee Sentiment](what-you-configure/employee-sentiment.md)
-* [Hiring](what-you-configure/hiring.md)
-* [Technologies](what-you-configure/technologies.md)
-* [Company Reviews](what-you-configure/company-reviews.md)
-* [Website](what-you-configure/website.md)
-* [Website Traffic](what-you-configure/website-traffic.md)
-* [Investments](what-you-configure/investments.md)
+* [Company Information](data-blocks/company-information.md)
+* [Industry & Business Type](data-blocks/industry-and-business-type.md)
+* [Location](data-blocks/location.md)
+* [Technologies](data-blocks/technologies.md)
+* [Funding](data-blocks/funding.md)
+* [Team](data-blocks/team.md)
+* [Employee Sentiment](data-blocks/employee-sentiment.md)
+* [Hiring](data-blocks/hiring.md)
+* [Company Reviews](data-blocks/company-reviews.md)
+* [Website](data-blocks/website.md)
+* [Website Traffic](data-blocks/website-traffic.md)
+* [Investments](data-blocks/investments.md)
 
 ***
 

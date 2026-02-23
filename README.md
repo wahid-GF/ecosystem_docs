@@ -4,46 +4,27 @@
 **Your platform. Your configuration. Our intelligence.**
 {% endhint %}
 
-GoodFit powers your dataset with 100s of attributes across 10 data blocks out of the box and more upon request. You configure the data layer once, choosing which blocks and parameters matter for your product. Allowing you to then open access inside your platform without having to maintain your own data infrastructure and contracts.
+GoodFit powers your dataset with 100s of attributes across 10+ data blocks out of the box and more upon request. You configure the data layer once, choosing which blocks and parameters matter for your product. Allowing you to then open access inside your platform without having to maintain your own data infrastructure and contracts.
 
-## What your customers get
-
-<table data-view="cards">
-<thead><tr>
-  <th></th>
-  <th></th>
-</tr></thead>
-<tbody>
-<tr>
-  <td><a href="what-your-customers-get/account-sourcing.md"><strong>Account Sourcing</strong></a></td>
-  <td>Your customers build their market from your dataset. They define their market, preview qualifying companies, and source continuously refreshed accounts.</td>
-</tr>
-<tr>
-  <td><a href="what-your-customers-get/enrichment.md"><strong>Enrichment</strong></a></td>
-  <td>Your customers pass a company and get back 100s of attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider.</td>
-</tr>
-</tbody>
-</table>
+<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><a href="what-your-customers-get/account-sourcing.md"><strong>Account Sourcing</strong></a></td><td>Your customers build their market from your dataset. They define their market, preview qualifying companies, and source continuously refreshed accounts.</td><td data-object-fit="contain"><a href=".gitbook/assets/magnifying-glass.png">magnifying-glass.png</a></td></tr><tr><td><a href="what-your-customers-get/enrichment.md"><strong>Enrichment</strong></a></td><td>Your customers pass a company and get back 100s of attributes. Firmographics, hiring, traffic, tech, funding, reviews, all from one provider.</td><td data-object-fit="contain"><a href=".gitbook/assets/enrichment.png">enrichment.png</a></td></tr></tbody></table>
 
 Both capabilities draw from the same data blocks listed below. You configure the blocks once. Your customers use them as sourcing filters or enrichment fields.
 
-## What you configure
+## What you can configure
 
 These blocks form your dataset. You define the parameters. Your customers query the result.
 
-| Block                                                                        | Configurable |
-| ---------------------------------------------------------------------------- | ------------ |
-| [Industry & Business Type](what-you-configure/industry-and-business-type.md) | Yes          |
-| [Company Information](what-you-configure/company-information.md)             | No           |
-| [Location](what-you-configure/location.md)                                   | No           |
-| [Employee Sentiment](what-you-configure/employee-sentiment.md)               | No           |
-| [Hiring](what-you-configure/hiring.md)                                       | Yes          |
-| [Team](what-you-configure/team.md)                                           | Yes          |
-| [Website](what-you-configure/website.md)                                     | No           |
-| [Company Reviews](what-you-configure/company-reviews.md)                     | Yes          |
-| [Technologies](what-you-configure/technologies.md)                           | Yes          |
-
-> Blocks marked **Yes** under Configurable include fields that depend on your setup: keyword lists, AI Industry / Business Type Labels, technology filters, or review criteria you define when building your dataset.&#x20;
+| Data Blocks                                                           |
+| --------------------------------------------------------------------- |
+| [Industry & Business Type](data-blocks/industry-and-business-type.md) |
+| [Company Information](data-blocks/company-information.md)             |
+| [Location](data-blocks/location.md)                                   |
+| [Technologies](data-blocks/technologies.md)                           |
+| [Team](data-blocks/team.md)                                           |
+| [Employee Sentiment](data-blocks/employee-sentiment.md)               |
+| [Hiring](data-blocks/hiring.md)                                       |
+| [Company Reviews](data-blocks/company-reviews.md)                     |
+| [Website](data-blocks/website.md)                                     |
 
 ## Partner programme
 
@@ -55,14 +36,6 @@ The dataset isn't fixed. We add new blocks, fields, and custom classifiers based
 
 {% content-ref url="request-a-data-point.md" %}
 [request-a-data-point.md](request-a-data-point.md)
-{% endcontent-ref %}
-
-{% content-ref url="what-your-customers-get/account-sourcing.md" %}
-[account-sourcing.md](what-your-customers-get/account-sourcing.md)
-{% endcontent-ref %}
-
-{% content-ref url="what-your-customers-get/enrichment.md" %}
-[enrichment.md](what-your-customers-get/enrichment.md)
 {% endcontent-ref %}
 
 {% content-ref url="technical-integration/getting-started.md" %}
