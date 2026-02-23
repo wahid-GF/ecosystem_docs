@@ -4,7 +4,7 @@
 **Your platform. Your configuration. Our intelligence.**
 {% endhint %}
 
-GoodFit powers your dataset with 100s of attributes across 10 data blocks out of the box and more upon request. You configure the data layer once, choosing which blocks and parameters matter for your product. Allowing you to then open access inside your platform without having to maintain their own data infrastructure and contracts.
+GoodFit powers your dataset with 100s of attributes across 10 data blocks out of the box and more upon request. You configure the data layer once, choosing which blocks and parameters matter for your product. Allowing you to then open access inside your platform without having to maintain your own data infrastructure and contracts.
 
 ## What your customers get
 

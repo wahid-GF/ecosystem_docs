@@ -13,7 +13,6 @@
 
 * [Getting Started](technical-integration/getting-started.md)
 * [Delivery Options](technical-integration/delivery-options.md)
-* [Data Freshness & SLAs](technical-integration/data-freshness-and-slas.md)
 
 ## What You Configure
 

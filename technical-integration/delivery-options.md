@@ -116,7 +116,3 @@ We'll work with your engineering team to define a mapping. Common patterns:
 ```
 {% endtab %}
 {% endtabs %}
-
-{% content-ref url="data-freshness-and-slas.md" %}
-[data-freshness-and-slas.md](data-freshness-and-slas.md)
-{% endcontent-ref %}

@@ -18,13 +18,7 @@ Review keyword matching lets partners surface companies whose customers are talk
 {% endtab %}
 {% tab title="Software reviews" %}
 
-| Field | Description | Example |
-| --- | --- | --- |
-| Has software features that match | Whether features matching your configured keywords exist across review platforms | true |
-| Has software reviews that match | Whether reviews matching your configured keywords exist | true |
-| List of keywords in software reviews that match | Keywords found in reviews matching your configuration | API integration, ease of use |
-| Number of software reviews | Count of customer reviews on the company's profile across review platforms | 234 |
-| Average software reviews rating | Overall review rating on the company's profile across review platforms | 4.5 |
+<table><thead><tr><th>Field</th><th width="372.72265625">Description</th><th>Example</th></tr></thead><tbody><tr><td>Has software features that match</td><td>Whether features matching your configured keywords exist across review platforms</td><td>true</td></tr><tr><td>Has software reviews that match</td><td>Whether reviews matching your configured keywords exist</td><td>true</td></tr><tr><td>List of keywords in software reviews that match</td><td>Keywords found in reviews matching your configuration</td><td>API integration, ease of use</td></tr><tr><td>Number of software reviews</td><td>Count of customer reviews on the company's profile across review platforms</td><td>234</td></tr><tr><td>Average software reviews rating</td><td>Overall review rating on the company's profile across review platforms</td><td>4.5</td></tr></tbody></table>
 
 {% endtab %}
 {% endtabs %}

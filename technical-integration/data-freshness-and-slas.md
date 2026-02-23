@@ -57,19 +57,19 @@ We'd recommend setting up these checks on your side:
 
 {% stepper %}
 {% step %}
-### Delivery arrival
+#### Delivery arrival
 Alert if the expected file isn't in S3 within two hours of the scheduled window.
 {% endstep %}
 {% step %}
-### Record count
+#### Record count
 Alert if the manifest record count deviates more than 10% from the trailing average.
 {% endstep %}
 {% step %}
-### Checksum
+#### Checksum
 Verify `checksum_sha256` before processing and reject files that fail integrity checks.
 {% endstep %}
 {% step %}
-### Schema version
+#### Schema version
 Alert if `schema_version` changes, and review new fields before ingesting.
 {% endstep %}
 {% endstepper %}

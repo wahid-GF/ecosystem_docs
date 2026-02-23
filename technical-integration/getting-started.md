@@ -48,7 +48,3 @@ Lock in the configuration. Activate automated refresh. Ship it to your users.
 {% content-ref url="delivery-options.md" %}
 [delivery-options.md](delivery-options.md)
 {% endcontent-ref %}
-
-{% content-ref url="data-freshness-and-slas.md" %}
-[data-freshness-and-slas.md](data-freshness-and-slas.md)
-{% endcontent-ref %}

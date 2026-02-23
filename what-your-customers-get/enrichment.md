@@ -41,11 +41,9 @@ A domain, a name, a CRM ID. One identifier. Your platform resolves it against yo
 {% step %}
 #### Structured data comes back
 
-Every field is typed, sourced, and fresh. Customers see it inside your platform. Your data, your UI, your experience. Maintain all the data dynamically in your backend openeing up any refresh workflows to your customers: batch, schedule, trigger based
+Every field is typed, sourced, and fresh. Customers see it inside your platform. Your data, your UI, your experience. Maintain all the data dynamically in your backend opening up any refresh workflows to your customers: batch, schedule, trigger based.
 {% endstep %}
 {% endstepper %}
-
-
 
 {% content-ref url="account-sourcing.md" %}
 [account-sourcing.md](account-sourcing.md)

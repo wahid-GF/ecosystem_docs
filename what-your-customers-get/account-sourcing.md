@@ -10,7 +10,7 @@ No scraping LinkedIn. No third-party credits. The accounts come from your platfo
 
 Scraping LinkedIn, paying for expensive third-party queries, or syncing stale CRM data/CSVs. All three put the burden on the customer, and leave the platform empty on day one.
 
-Account Sourcing turns your platform into the source of truth. A customer determines who they sell to across any definition you allow within the platform., For you to then dynamically deliver the accounts as and when required.
+Account Sourcing turns your platform into the source of truth. A customer determines who they sell to across any definition you allow within the platform. For you to then dynamically deliver the accounts as and when required.
 
 Unlocks:
 
