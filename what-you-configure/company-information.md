@@ -8,18 +8,6 @@ These fields map directly into most CRM or account models. They're the starting 
 
 ## Fields
 
-| Field | Description | Example |
-| --- | --- | --- |
-| Primary domain | Main website domain | acme.com |
-| Company name | Company name | Acme Corp |
-| Company type | Company type (e.g. public, private, non-profit) | Private |
-| Employee range | Range of employees (e.g. 51-200) | 51-200 |
-| IPO status | IPO status of the company | Private |
-| LinkedIn description | Company's "About Us" description | Acme helps teams collaborate... |
-| Year founded | Year the company was founded | 2018 |
-| LinkedIn followers | Count of the company's social media followers | 12,400 |
-| Country | Company's headquarters country | United States |
-| Employee count | Total employee count based on individual employee data, not estimated range | 142 |
-| Revenue range | Estimated company revenue range | $10M-$50M |
+<table><thead><tr><th width="178.43359375">Field</th><th width="300.953125">Description</th><th>Example</th></tr></thead><tbody><tr><td>Primary domain</td><td>Main website domain</td><td>acme.com</td></tr><tr><td>Company name</td><td>Company name</td><td>Acme Corp</td></tr><tr><td>Company type</td><td>Company type (e.g. public, private, non-profit)</td><td>Private</td></tr><tr><td>Employee range</td><td>Range of employees (e.g. 51-200)</td><td>51-200</td></tr><tr><td>IPO status</td><td>IPO status of the company</td><td>Private</td></tr><tr><td>LinkedIn description</td><td>Company's "About Us" description</td><td>Acme helps teams collaborate...</td></tr><tr><td>Year founded</td><td>Year the company was founded</td><td>2018</td></tr><tr><td>LinkedIn followers</td><td>Count of the company's social media followers</td><td>12,400</td></tr><tr><td>Country</td><td>Company's headquarters country</td><td>United States</td></tr><tr><td>Employee count</td><td>Total employee count based on individual employee data, not estimated range</td><td>142</td></tr><tr><td>Revenue range</td><td>Estimated company revenue range</td><td>$10M-$50M</td></tr></tbody></table>
 
 > **Shared fields**: Country also appears in [Location](location.md). Employee count also appears in [Team](team.md).

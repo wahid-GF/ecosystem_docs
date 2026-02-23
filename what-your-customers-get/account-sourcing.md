@@ -12,7 +12,7 @@ Scraping LinkedIn, paying for expensive third-party queries, or syncing stale CR
 
 Account Sourcing turns your platform into the source of truth. A customer determines who they sell to across any definition you allow within the platform., For you to then dynamically deliver the accounts as and when required.
 
-Unlocking:
+Unlocks:
 
 * New customers get a populated experience from day one
 * You can offer filters no other provider supports, like "B2B SaaS companies hiring data engineers in DACH and use kubernetes"
