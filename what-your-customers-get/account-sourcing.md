@@ -25,7 +25,7 @@ Unlocks:
 {% step %}
 #### Build the dataset
 
-Work with GoodFit to define which companies are included, which attributes matter, and how segments are configured. Done once, refined over time. Your customers never see this layer.
+Work with GoodFit to define which companies are included, which attributes matter, and how configurable blocks are set up. Done once, refined over time. Your customers never see this layer.
 {% endstep %}
 
 {% step %}
@@ -47,9 +47,9 @@ Once published, the market stays live. New companies appear the moment they qual
 
 <summary>View all available filters</summary>
 
-Every data group can be used as a sourcing filter. Here are the most common:
+Every data block can be used as a sourcing filter. Here are the most common:
 
-| Filter               | Group                                                                           | Example                                             |
+| Filter               | Block                                                                           | Example                                             |
 | -------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------- |
 | Company size         | [Company Information](../what-you-configure/company-information.md)             | `{ "min": 50, "max": 500 }`                         |
 | Geography            | [Location](../what-you-configure/location.md)                                   | `{ "in": ["United States", "Germany"] }`            |
@@ -62,12 +62,12 @@ Every data group can be used as a sourcing filter. Here are the most common:
 | Team composition     | [Team](../what-you-configure/team.md)                                           | `{ "departments": ["sales"], "has_matches": true }` |
 | Job keywords         | [Hiring](../what-you-configure/hiring.md)                                       | `{ "titleKeywords": ["data engineer"] }`            |
 | Traffic volume       | [Website Traffic](../what-you-configure/website-traffic.md)                     | `{ "min": 50000 }`                                  |
-| Classification model | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `{ "primary_label": "Vertical SaaS" }`              |
+| AI Industry / Business Type Label | [Industry & Business Type](../what-you-configure/industry-and-business-type.md) | `{ "primary_label": "Vertical SaaS" }`              |
 
 </details>
 
 {% hint style="success" %}
-Configurable groups as filters are the differentiator. These aren't static fields. They're queries you defined when building your dataset, producing signals no other provider can offer as sourcing criteria.
+Configurable blocks as filters are the differentiator. These aren't static fields. They're queries you defined when building your dataset, producing signals no other provider can offer as sourcing criteria.
 {% endhint %}
 
 {% content-ref url="enrichment.md" %}

@@ -1,6 +1,6 @@
 # Location
 
-Where companies are headquartered, where their offices are, where their team is distributed, and where they're hiring. This group pulls together geographic data from across the dataset so you can filter and segment by location in one place.
+Where companies are headquartered, where their offices are, where their team is distributed, and where they're hiring. This block pulls together geographic data from across the dataset so you can filter and segment by location in one place.
 
 {% hint style="info" %}
 Geographic filtering is one of the most-used capabilities. Partners combine HQ location with hiring and team distribution to identify companies expanding into new markets.

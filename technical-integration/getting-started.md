@@ -23,7 +23,7 @@ Walk us through your product, your user base, and where company data fits in. We
 {% step %}
 #### Dataset configuration
 
-With your GoodFit partnership lead, you'll define which companies are in scope, how data blocks are structured, and which attributes matter for your market. We handle the data engineering.
+With your GoodFit partnership lead, you'll define which companies are in scope, how data blocks are structured, and which attributes matter for your product. We handle the data engineering.
 {% endstep %}
 
 {% step %}

@@ -1,12 +1,13 @@
 # Company Reviews
 
-Customer-facing reviews and ratings. You define the keywords you care about during setup, and these fields tell you whether any reviews mention those terms and how many match.
+Customer-facing reviews and ratings across review platforms. This block covers keyword-matched review signals, review counts, ratings, and software feature mentions. You define the keywords you care about during setup.
 
 {% hint style="info" %}
 Review keyword matching lets partners surface companies whose customers are talking about specific topics — pain points, competitor mentions, feature requests, or product categories. It's a powerful intent signal.
 {% endhint %}
 
-## Fields
+{% tabs %}
+{% tab title="Keyword matches" %}
 
 <table><thead><tr><th>Field</th><th width="372.72265625">Description</th><th>Example</th></tr></thead><tbody><tr><td>Has reviews that match</td><td>Whether a review with a keyword match exists</td><td>true</td></tr><tr><td>Number of reviews that match </td><td>Count of reviews matching your configured keyword criteria</td><td>12</td></tr></tbody></table>
 
@@ -14,6 +15,22 @@ Review keyword matching lets partners surface companies whose customers are talk
 **Both fields are configurable.** Results depend entirely on the keywords you define during dataset setup. No keywords configured means no results returned.
 {% endhint %}
 
+{% endtab %}
+{% tab title="Software reviews" %}
+
+| Field | Description | Example |
+| --- | --- | --- |
+| Has software features that match | Whether features matching your configured keywords exist across review platforms | true |
+| Has software reviews that match | Whether reviews matching your configured keywords exist | true |
+| List of keywords in software reviews that match | Keywords found in reviews matching your configuration | API integration, ease of use |
+| Number of software reviews | Count of customer reviews on the company's profile across review platforms | 234 |
+| Average software reviews rating | Overall review rating on the company's profile across review platforms | 4.5 |
+
+{% endtab %}
+{% endtabs %}
+
 ### How it works
 
 You provide a list of keywords during configuration. GoodFit scans customer-facing reviews for each company and returns matches against your terms. For example, if you configure keywords like "slow onboarding" or "API integration", you'll see which companies have reviews mentioning those phrases.
+
+> **Shared fields**: Software categories and Software sub-categories also appear in [Industry & Business Type](industry-and-business-type.md).

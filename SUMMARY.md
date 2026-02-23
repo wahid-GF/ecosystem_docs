@@ -26,7 +26,6 @@
 * [Hiring](what-you-configure/hiring.md)
 * [Technologies](what-you-configure/technologies.md)
 * [Company Reviews](what-you-configure/company-reviews.md)
-* [Software Products](what-you-configure/software-products.md)
 * [Website](what-you-configure/website.md)
 * [Website Traffic](what-you-configure/website-traffic.md)
 * [Investments](what-you-configure/investments.md)

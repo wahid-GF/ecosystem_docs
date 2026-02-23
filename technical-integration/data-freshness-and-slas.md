@@ -38,7 +38,7 @@ For companies that get queried a lot, data refreshes on every crawl cycle. For l
 | Metric                | Commitment                                                     |
 | --------------------- | -------------------------------------------------------------- |
 | Delivery timeliness   | 99.5% on-time delivery within the scheduled window             |
-| Delivery completeness | 100% of configured groups and fields present in every delivery |
+| Delivery completeness | 100% of configured blocks and fields present in every delivery |
 | File integrity        | SHA-256 checksum provided and verified for every delivery      |
 | Data freshness        | No attribute older than its documented refresh cadence         |
 
